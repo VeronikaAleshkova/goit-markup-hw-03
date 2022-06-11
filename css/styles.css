@@ -169,6 +169,9 @@ p {
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 696px;
 
   font-weight: 900;
   font-size: 44px;
@@ -262,7 +265,6 @@ p {
 }
 
 .team-item {
-  padding-bottom: 30px;
   background-color: var(--background-main-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -275,10 +277,15 @@ p {
 
 .team-photo {
   display: block;
-  margin-bottom: 30px;
+}
+
+.team-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-title {
+  margin-top: 0;
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -343,8 +350,11 @@ p {
 }
 
 .footer-logo {
+  display: block;
   margin-right: 0;
   margin-bottom: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .logoend-footer {
@@ -364,10 +374,9 @@ p {
 }
 
 .address-list {
-  margin-top: 20px;
 }
 
-.address-list .address-item {
+.address-item {
   margin-top: 0;
 
   color: var(--secondary-text-color);
